@@ -1,0 +1,43 @@
+h5 {
+    background-color: darkblue;
+    color: white;
+    width: 100%;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+}
+
+.info {
+    color: green;
+    text-align: center;
+}
+
+.abt {
+    margin: 100px;
+}
+
+.bd {
+    margin: 10px;
+}
+
+.bd1 {
+    margin: 2px;
+    height: 210px;
+    padding: 0 auto;
+}
+
+.bdt {
+    margin: 56px;
+}
+
+h1 {
+    border: 1px solid;
+    width: 90%;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
