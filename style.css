@@ -41,3 +41,52 @@ h1 {
     background-color: darkblue;
     color: white;
 }
+/* For mobile devices */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .button a button {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .bd1, .bdt {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+/* For tablet devices */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+    .button a button {
+        width: 50%;
+        margin: 10px 0;
+    }
+    .bd1, .bdt {
+        width: 48%;
+        margin: 1%;
+    }
+}
+
+/* For desktop devices */
+@media (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+    .button a button {
+        width: 33%;
+        margin: 10px;
+    }
+    .bd1, .bdt {
+        display: inline-block;
+        width: 30%;
+        margin: 10px;
+    }
+    .bd img {
+        width: 300px;
+        height: auto;
+    }
+}
+
